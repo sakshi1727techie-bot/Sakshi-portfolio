@@ -3425,3 +3425,26 @@ ul{
 
 }
 
+
+
+@media (max-width: 768px) {
+
+    .hero-action-wrapper{
+        display:flex;
+        justify-content:center;
+        gap:12px;
+    }
+
+    .hero-resume-btn{
+        width:180px !important;
+        min-width:180px !important;
+        max-width:180px !important;
+
+        height:46px !important;
+
+        font-size:14px !important;
+
+        flex:none !important;
+    }
+
+}
